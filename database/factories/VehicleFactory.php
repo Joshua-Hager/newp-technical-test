@@ -25,7 +25,7 @@ class VehicleFactory extends Factory
             'make'  => $this->pickValue(['Toyota', 'Honda', 'GMC', 'Ford', 'Nissan', 'Hyundai', 'BMW', 'Mercedes']),
             'model' => $this->pickValue(['Mid Size Truck', 'Full Size Truck', 'Cargo Van', 'Sedan', 'Coupe', 'SUV']),
             'color' => $this->pickValue(['White', 'Red', 'Blue', 'Black', 'Gold', 'Green', 'Grey']),
-            'year'  => $this->pickValue([2010, 2011, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020]),
+            'year'  => $this->pickValue([2010, 2011, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020])
         ];
     }
 
