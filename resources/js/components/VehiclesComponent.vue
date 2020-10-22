@@ -49,7 +49,6 @@
             </div>
         </div>
         <el-dialog
-            close-on-click-modal="false"
             title="Add Vehicle"
             :visible.sync="showDialog"
             width="30%">
